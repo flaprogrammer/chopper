@@ -14,7 +14,7 @@ export default async function Settings() {
     <main>
       <h3>Settings page</h3>
       <div>
-        {characters.map((character) => (
+        {characters.map((character: any) => (
           <div key={character.id}>{character.name}</div>
         ))}
       </div>
